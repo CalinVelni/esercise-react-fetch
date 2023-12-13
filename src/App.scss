@@ -7,7 +7,7 @@ section {
   display: grid;
   justify-content: center;
   figure {
-    width: 400px;
+
     border: 1px solid gray;
     padding: 1rem;
     text-align: center;
@@ -43,4 +43,9 @@ section {
     cursor: pointer;
     font-style: italic;
   }
+}
+
+#cardsWrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
 }

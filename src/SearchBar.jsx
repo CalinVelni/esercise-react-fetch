@@ -8,7 +8,7 @@ export default ({ value, onChange, onSearch }) => {
           onChange(e.target.value);
         }}
       />
-      <button onClick={onSearch}>Cerca</button>
+      <button onClick={onSearch}>Search</button>
     </div>
   );
 };
